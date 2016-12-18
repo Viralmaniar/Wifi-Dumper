@@ -24,7 +24,7 @@ def logo():
 [+] Author: Viral Maniar
 [+] Twitter: @ManiarViral
 [+] Description: Wifi Profiles and Password Dumper for Windows.
-[+] Note: Run the application as administratror to see the clear-text credentials.
+[+] Note: Run the application as administratror to see the clear-text password.
 
 '''
 	return logo
@@ -59,7 +59,7 @@ def main():
 					print (check_output(" netsh wlan show interfaces >> Interface_info.txt", shell=True))
 					break
 				if choice == 5:
-					print (check_output("netsh wlan show profiles name=* >> Full_Report.txt", shell=True))
+					print (check_output("netsh wlan show all >> Full_Report.txt", shell=True))
 					break
 				if choice == 6:
 					print ("\n")
