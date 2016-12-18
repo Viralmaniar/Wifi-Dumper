@@ -26,7 +26,7 @@ This is an open source tool to dump the wifi profiles and cleartext passwords of
 
 # How to run the application?
 [+] Run cmd.exe as an administrator.<br>
-[+] Change Directory
+[+] Change Directory<br>
 [+] Run the application as C:\\>python wifi_dumper.py
 
 # Questions?
