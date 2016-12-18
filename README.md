@@ -21,14 +21,14 @@ This is an open source tool to dump the wifi profiles and cleartext passwords of
 <i>Option 9:</i> Exit gracefully.<br>
 
 # General Notes
-[+] Each option in the tool generates the ".txt" file as an output.
+[+] Each option in the tool generates the ".txt" file as an output.<br>
 [+] If you run the tool multiple times, the output gets appended to the previous results.
 
 # How to run the application?
-[+] Run cmd.exe as an administrator.
+[+] Run cmd.exe as an administrator.<br>
 [+] Run the application as C:\>python wifi_dumper.py
 
 # Questions?
-Twitter: https://twitter.com/maniarviral
+Twitter: https://twitter.com/maniarviral<br>
 LinkedIn: https://au.linkedin.com/in/viralmaniar
 
