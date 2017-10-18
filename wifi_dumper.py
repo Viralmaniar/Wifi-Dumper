@@ -124,8 +124,8 @@ cmds = {
 def main():
 	os.system('cls')
 	print (logo())
+	checkHostWindows()
 	try:
-		checkHostWindows()
 		while True:
 			choice = input("\n%s" % OPTIONS)
 			if choice not in cmds:
